@@ -1,5 +1,5 @@
-# Test TensorFlow Model for Image Processing
-This is meant to be a simple test of a custom data extraction, labeling, and machine learning script that I wrote for research in the Vanderbilt LIVE lab.
+# Test TensorFlow Model for Image Processing on Locally Stored Data
+This is meant to be a simple test of a custom data extraction, labeling, and machine learning script that I wrote for a research lab.
 
 Currently it is scaled in such a way that gives no meaningful results for the dataset we are using within the lab. But with the proper file structure and data could yield meaningful results on other sets of data still.
 
@@ -17,3 +17,4 @@ Loads the image data into TensorFlow and runs a simple neural network.
 ## TODO
 * I need to input the full dataset (multiple camera angles across many subjects)
 * I need to run this script remotely on a cloud GPU (EC2 or Google Colab) so it's run in a reasonable time (takes a full workday on my machine with only one video)
+* Make this GitHub repo actually useful for other people lol
