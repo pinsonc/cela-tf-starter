@@ -17,7 +17,7 @@ def get_files(a_dir):
     return [f for f in a_dir.glob('**/*') if f.is_file()]
 
 # change to folder where frames of the video are
-frame_folder = '/media/connerpinson/Samsung_T5/S1 C2/frames'
+frame_folder = '/media/connerpinson/Seagate Expansion Drive/EXP 3/S1 C2/frames'
 file_list = get_files(frame_folder)
 print(len(file_list))
 

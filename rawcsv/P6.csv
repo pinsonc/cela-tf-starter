@@ -1,0 +1,186 @@
+ignore,PROCEDURE,Original_Start_Time,Original_Stop_Time,Video_Start,Video_Stop,Total_Time,Cleaned_Start_Time,Cleaned_Stop_Time,Posture,Patient_Side,Site,Comments,,,,,,,,,
+clap,CLAP,2019-04-04 13:09:55:726683,2019-04-04 13:09:55:726683,13:14:24.73,13:14:24.73,00:00.00,13:09:56,13:09:56,,,,,,,,,,,Oral airway,,Combat Tourniquet
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:10:11:643132,2019-04-04 13:10:32:001683,,,,,,,,,,,,,,,,Bagging,,Splinting
+CPR (Breath),CPR (BREATH),2019-04-04 13:10:32:001683,2019-04-04 13:10:35:486337,,,,,,,,,,,,,,,,Intubation,,Combat Gauze
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:10:35:486337,2019-04-04 13:10:55:040019,,,,,,,,,,,,,,,,Intubation-Stylete,,Wrap Head Wound
+CPR (Breath),CPR (BREATH),2019-04-04 13:10:55:040019,2019-04-04 13:10:59:643723,,,,,,,,,,,,,,,,Oral Airway,,Vital Checking
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:10:59:643723,2019-04-04 13:11:19:999257,,,,,,,,,,,,,,,,King Airway,,ECG Leads
+CPR (Breath),CPR (BREATH),2019-04-04 13:11:19:999257,2019-04-04 13:11:25:407798,,,,,,,,,,,,,,,,Oral Airway,,Pulse-Ox
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:11:25:407798,2019-04-04 13:11:45:830121,,,,,,,,,,,,,,,,combat tourniquet,,Blood-Pressure Cuff
+CPR (Breath),CPR (BREATH),2019-04-04 13:11:45:830121,2019-04-04 13:11:50:151590,,,,,,,,,,,,,,,,Splintting,,IV Line
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:11:50:151590,2019-04-04 13:12:10:983818,,,,,,,,,,,,,,,,Combat Gauze,,Draw Medication
+CPR (Breath),CPR (BREATH),2019-04-04 13:12:10:983818,2019-04-04 13:12:16:194875,,,,,,,,,,,,,,,,wrap head wound,,Adminster Medication
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:12:16:194875,2019-04-04 13:12:36:210344,,,,,,,,,,,,,,,,Chest-Tube Prep,,Swab Area with Alcohol
+CPR (Breath),CPR (BREATH),2019-04-04 13:12:36:210344,2019-04-04 13:12:42:080640,,,,,,,,,,,,,,,,Draw Medication,,IV Tourniquet
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:12:42:080640,2019-04-04 13:13:03:807508,,,,,,,,,,,,,,,,IM administration,,Swab Area with Alcohol
+CPR (Breath),CPR (BREATH),2019-04-04 13:13:03:807508,2019-04-04 13:13:08:910825,,,,,,,,,,,,,,,,Chest-Tube,,IV Line
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:13:08:910825,2019-04-04 13:13:20:934672,,,,,,,,,,,,,,,,Suturing,,Draw Medication
+CPR (Breath),CPR (BREATH),2019-04-04 13:13:29:203529,2019-04-04 13:13:34:091450,,,,,,,,,,,,,,,,CPR (Compression),,Adminster Medication
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:13:34:091450,2019-04-04 13:13:54:736212,,,,,,,,,,,,,,,,CPR (Breath),,Swab Area with Alcohol
+CPR (Breath),CPR (BREATH),2019-04-04 13:13:54:736212,2019-04-04 13:14:00:316282,,,,,,,,,,,,,,,,CPR (Compression),,Swab Area with Alcohol
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:14:00:316282,2019-04-04 13:14:21:463698,,,,,,,,,,,,,,,,CPR (Breath),,Draw Medication
+CPR (Breath),CPR (BREATH),2019-04-04 13:14:21:463698,2019-04-04 13:14:25:638550,,,,,,,,,,,,,,,,CPR (Compression),,IM administration
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:14:25:638550,2019-04-04 13:14:45:212180,,,,,,,,,,,,,,,,CPR (Breath),,Incision
+CPR (Breath),CPR (BREATH),2019-04-04 13:14:45:212180,2019-04-04 13:14:49:779960,,,,,,,,,,,,,,,,CPR (Compression),,Chest-Tube Prep
+CPR (Compression),CPR (COMPRESSION),2019-04-04 13:14:49:779960,2019-04-04 13:15:09:337604,,,,,,,,,,,,,,,,CPR (Breath),,Chest-Tube
+CPR (Breath),CPR (BREATH),2019-04-04 13:15:09:337604,2019-04-04 13:15:14:085900,,,,,,,,,,,,,,,,CPR (Compression),,Suturing
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 13:19:21:702455,2019-04-04 13:19:36:835999,,,,,,,,,,,,,,,,CPR (Breath),,oral airway
+IO Line,IO LINE,2019-04-04 13:19:44:679012,2019-04-04 13:21:31:963878,,,,,,,,,,,,,,,,CPR (Compression),,bagging
+Draw Medication,DRAW MEDICATION,2019-04-04 13:21:57:049242,2019-04-04 13:22:05:491350,,,,,,,,,,,,,,,,CPR (Breath),,Swab Area with Alcohol
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 13:22:05:491350,2019-04-04 13:22:33:219167,,,,,,,,,,,,,,,,CPR (Compression),,Draw Medication
+Combat tourniquet,COMBAT TOURNIQUET,2019-04-04 13:25:53:048109,2019-04-04 13:26:39:979921,,,,,,,,,,,,,,,,CPR (Breath),,IM administration
+Splinting,SPLINTING,2019-04-04 13:28:30:948004,2019-04-04 13:29:03:463838,,,,,,,,,,,,,,,,CPR (Compression),,Swab Area with Alcohol
+Combat Gauze,COMBAT GAUZE,2019-04-04 13:29:23:378913,2019-04-04 13:30:16:230643,,,,,,,,,,,,,,,,CPR (Breath),,IO Line
+Wrap Head Wound,WRAP HEAD WOUND,2019-04-04 13:30:45:540172,2019-04-04 13:31:41:900376,,,,,,,,,,,,,,,,CPR (Compression),,Swab Area with Alcohol
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 13:34:18:463873,2019-04-04 13:34:32:790052,,,,,,,,,,,,,,,,CPR (Breath),,Draw Medication
+Draw Medication,DRAW MEDICATION,2019-04-04 13:34:45:773822,2019-04-04 13:35:12:265990,,,,,,,,,,,,,,,,CPR (Compression),,Adminster Medication
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 13:35:12:265990,2019-04-04 13:35:27:101794,,,,,,,,,,,,,,,,CPR (Breath),,Swab Area with Alcohol
+Vital checking,VITAL CHECKING,2019-04-04 13:37:33:662687,2019-04-04 13:38:22:856790,,,,,,,,,,,,,,,,CPR (Compression),,IV Tourniquet
+ECG Leads,ECG LEADS,2019-04-04 13:38:33:701489,2019-04-04 13:40:43:333304,,,,,,,,,,,,,,,,CPR (Breath),,IV Line
+Pulse-Ox,PULSE-OX,2019-04-04 13:40:57:297578,2019-04-04 13:41:06:260392,,,,,,,,,,,,,,,,CPR (Compression),,Swab Area with Alcohol
+Blood-Pressure Cuff,BLOOD-PRESSURE CUFF,2019-04-04 13:41:12:286122,2019-04-04 13:42:18:086349,,,,,,,,,,,,,,,,CPR (Breath),,Draw Medication
+Oral Airway,ORAL AIRWAY,2019-04-04 13:44:08:944895,2019-04-04 13:44:18:042321,,,,,,,,,,,,,,,,CPR (Compression),,Adminster Medication
+Bagging,BAGGING,2019-04-04 13:44:45:986836,2019-04-04 13:54:48:341801,,,,,,,,,,,,,,,,CPR (Breath),,Swab Area with Alcohol
+Intubation,INTUBATION,2019-04-04 13:55:58:940970,2019-04-04 13:56:34:582957,,,,,,,,,,,,,,,,CPR (Compression),,IV Tourniquet
+Oral Airway,ORAL AIRWAY,2019-04-04 13:57:29:153147,2019-04-04 13:57:35:053253,,,,,,,,,,,,,,,,CPR (Breath),,IV Line
+king airway,KING AIRWAY,2019-04-04 13:59:07:967985,2019-04-04 13:59:27:689857,,,,,,,,,,,,,,,,CPR (Compression),,Swab Area with Alcohol
+oral airway,ORAL AIRWAY,2019-04-04 14:00:08:742248,2019-04-04 14:00:16:219106,,,,,,,,,,,,,,,,CPR (Breath),,Draw Medication
+IV Tourniquet,IV TOURNIQUET,2019-04-04 14:05:05:162786,2019-04-04 14:05:18:561692,,,,,,,,,,,,,,,,CPR (Compression),,IV Line
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:05:18:561692,2019-04-04 14:05:33:947276,,,,,,,,,,,,,,,,IV Tourniquet,,oral airway
+IV Line,IV LINE,2019-04-04 14:05:33:947276,2019-04-04 14:08:03:357839,,,,,,,,,,,,,,,,Swab Area with Alcohol,,bagging
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:08:52:505446,2019-04-04 14:09:02:381841,,,,,,,,,,,,,,,,IV Line,,king airway
+Draw Medication,DRAW MEDICATION,2019-04-04 14:09:02:381841,2019-04-04 14:09:13:080023,,,,,,,,,,,,,,,,Draw Medication,,oral airway
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 14:09:13:080023,2019-04-04 14:09:54:703895,,,,,,,,,,,,,,,,Administer Medication,,intubation
+IV Tourniquet,IV TOURNIQUET,2019-04-04 14:12:51:125653,2019-04-04 14:13:05:170818,,,,,,,,,,,,,,,,IV Tourniquet,,oral airway
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:13:05:170818,2019-04-04 14:13:36:007750,,,,,,,,,,,,,,,,Swab Area with Alcohol,,Swab Area with Alcohol
+IV Line,IV LINE,2019-04-04 14:13:36:007750,2019-04-04 14:16:10:960339,,,,,,,,,,,,,,,,IV Line,,IO Line
+Draw Medication,DRAW MEDICATION,2019-04-04 14:16:32:197163,2019-04-04 14:16:43:710118,,,,,,,,,,,,,,,,Draw Medication,,Swab Area with Alcohol
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:16:43:710118,2019-04-04 14:16:53:825869,,,,,,,,,,,,,,,,Administer Medication,,Draw Medication
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 14:16:53:825869,2019-04-04 14:17:30:381396,,,,,,,,,,,,,,,,Swab Area with Alcohol,,IO Line
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:20:40:828372,2019-04-04 14:20:55:589628,,,,,,,,,,,,,,,,Draw Medication,,vital checking
+IM administration,IM ADMINISTRATION,2019-04-04 14:20:55:589628,2019-04-04 14:21:21:852860,,,,,,,,,,,,,,,,IM administration,,ECG Leads
+Chest-Tube Prep,CHEST-TUBE PREP,2019-04-04 14:21:21:852860,2019-04-04 14:21:47:294350,,,,,,,,,,,,,,,,Pulse-Ox,,Pulse-Ox
+Chest-Tube,CHEST-TUBE,2019-04-04 14:21:47:294350,2019-04-04 14:22:46:645476,,,,,,,,,,,,,,,,ECG Leads,,Blood-Pressure Cuff
+Suturing,SUTURING,2019-04-04 14:22:46:645476,2019-04-04 14:25:41:067625,,,,,,,,,,,,,,,,Blood-Pressure Cuff,,Draw Medication
+Vital Checking,VITAL CHECKING,2019-04-04 14:28:20:925583,2019-04-04 14:28:58:145425,,,,,,,,,,,,,,,,Vital Checking,,Swab Area with Alcohol
+Blood-Pressure Cuff,BLOOD-PRESSURE CUFF,2019-04-04 14:29:05:390983,2019-04-04 14:31:04:602093,,,,,,,,,,,,,,,,Swab Area with Alcohol,,IM administration
+ECG Leads,ECG LEADS,2019-04-04 14:31:10:657819,2019-04-04 14:31:21:670266,,,,,,,,,,,,,,,,IO Line,,Chest-Tube
+Pulse-Ox,PULSE-OX,2019-04-04 14:31:27:704074,2019-04-04 14:32:35:470243,,,,,,,,,,,,,,,,Swab Area with Alcohol,,Suturing
+IV Tourniquet,IV TOURNIQUET,2019-04-04 14:35:45:310771,2019-04-04 14:36:13:036391,,,,,,,,,,,,,,,,Draw Medication,,combat tourniquet
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:36:13:036391,2019-04-04 14:36:34:593541,,,,,,,,,,,,,,,,Administer Medication,,Splinting
+IV Line,IV LINE,2019-04-04 14:36:34:593541,2019-04-04 14:38:57:273630,,,,,,,,,,,,,,,,Swab Area with Alcohol,,Combat Gauze
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:39:35:521030,2019-04-04 14:39:41:477047,,,,,,,,,,,,,,,,Draw Medication,,Wrap Head Wound
+Draw Medication,DRAW MEDICATION,2019-04-04 14:39:41:477047,2019-04-04 14:40:00:498003,,,,,,,,,,,,,,,,IM administration,,Swab Area with Alcohol
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 14:40:00:498003,2019-04-04 14:40:29:562038,,,,,,,,,,,,,,,,combat tourniquet,,Draw Medication
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:42:31:145749,2019-04-04 14:42:48:629890,,,,,,,,,,,,,,,,Splintting,,IM administration
+IV Tourniquet,IV TOURNIQUET,2019-04-04 14:42:48:629890,2019-04-04 14:43:08:779794,,,,,,,,,,,,,,,,Combat Gauze,,CPR (Compression)
+IV Line,IV LINE,2019-04-04 14:43:08:779794,2019-04-04 14:45:32:160044,,,,,,,,,,,,,,,,Wrap Head Wound,,CPR (Breath)
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:45:57:827121,2019-04-04 14:46:01:043491,,,,,,,,,,,,,,,,IV Tourniquet,,CPR (Compression)
+Draw Medication,DRAW MEDICATION,2019-04-04 14:46:01:043491,2019-04-04 14:46:29:214890,,,,,,,,,,,,,,,,Swab Area with Alcohol,,CPR (Breath)
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 14:46:29:214890,2019-04-04 14:46:56:132687,,,,,,,,,,,,,,,,IV Line,,CPR (Compression)
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:48:38:772476,2019-04-04 14:48:49:049866,,,,,,,,,,,,,,,,Draw Medication,,CPR (Breath)
+Draw Medication,DRAW MEDICATION,2019-04-04 14:48:49:049866,2019-04-04 14:49:02:243460,,,,,,,,,,,,,,,,Administer Medication,,CPR (Compression)
+IM administration,IM ADMINISTRATION,2019-04-04 14:49:02:243460,2019-04-04 14:49:09:726403,,,,,,,,,,,,,,,,IV Tourniquet,,CPR (Breath)
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:50:42:438329,2019-04-04 14:50:53:613374,,,,,,,,,,,,,,,,Swab Area with Alcohol,,CPR (Compression)
+IO Line,IO LINE,2019-04-04 14:50:53:613374,2019-04-04 14:52:23:920995,,,,,,,,,,,,,,,,IV Line,,CPR (Breath)
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 14:52:43:503443,2019-04-04 14:52:56:474637,,,,,,,,,,,,,,,,Draw Medication,,CPR (Compression)
+Administer Medication,ADMINISTER MEDICATION,2019-04-04 14:52:56:474637,2019-04-04 14:53:24:553283,,,,,,,,,,,,,,,,Administer Medication,,CPR (Breath)
+Combat tourniquet,COMBAT TOURNIQUET,2019-04-04 14:55:10:114289,2019-04-04 14:56:27:351102,,,,,,,,,,,,,,,,Draw Medication,,CPR (Compression)
+Splinting,SPLINTING,2019-04-04 14:56:53:154147,2019-04-04 14:58:07:908496,,,,,,,,,,,,,,,,Chest-Tube Prep,,CPR (Breath)
+Combat Gauze,COMBAT GAUZE,2019-04-04 14:58:13:930646,2019-04-04 14:59:02:449473,,,,,,,,,,,,,,,,IM Administration,,CPR (Compression)
+Wrap Head Wound,WRAP HEAD WOUND,2019-04-04 14:59:19:171736,2019-04-04 15:00:09:903593,,,,,,,,,,,,,,,,Chest-Tube,,CPR (Breath)
+Swab Area with Alcohol,SWAB AREA WITH ALCOHOL,2019-04-04 15:03:09:559540,2019-04-04 15:03:23:692677,,,,,,,,,,,,,,,,Suturing,,CPR (Compression)
+IM administration,IM ADMINISTRATION,2019-04-04 15:03:23:692677,2019-04-04 15:04:05:656261,,,,,,,,,,,,,,,,Oral Airway,,CPR (Breath)
+Chest-Tube Prep,CHEST-TUBE PREP,2019-04-04 15:04:05:656261,2019-04-04 15:05:15:570966,,,,,,,,,,,,,,,,Bagging,,CPR (Compression)
+Chest-Tube,CHEST-TUBE,2019-04-04 15:05:15:570966,2019-04-04 15:06:44:703220,,,,,,,,,,,,,,,,King Airway,,CPR (Breath)
+Suturing,SUTURING,2019-04-04 15:06:44:703220,2019-04-04 15:08:05:271353,,,,,,,,,,,,,,,,Oral Airway,,CPR (Compression)
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Intubation,,CPR (Breath)
+,,,,,,,,,,,,,,,,,,,Intubation,,CPR (Compression)
+,,,,,,,,,,,,,,,,,,,Oral Airway,,CPR (Breath)
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,CPR (Compression)
+,,,,,,,,,,,,,,,,,,,IO Line,,CPR (Breath)
+,,,,,,,,,,,,,,,,,,,Draw Medication,,CPR (Compression)
+,,,,,,,,,,,,,,,,,,,Administer Medication,,oral airway
+,,,,,,,,,,,,,,,,,,,Pulse-Ox,,king airway
+,,,,,,,,,,,,,,,,,,,ECG Leads,,intubation
+,,,,,,,,,,,,,,,,,,,Blood-Pressure Cuff,,Swab Area with Alcohol
+,,,,,,,,,,,,,,,,,,,Vital Checking,,Draw Medication
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,IM administration
+,,,,,,,,,,,,,,,,,,,Draw Medication,,Incision
+,,,,,,,,,,,,,,,,,,,IM administration,,Chest-Tube Prep
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,Chest-Tube
+,,,,,,,,,,,,,,,,,,,IO Line,,Suturing
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Administer Medication,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Chest-Tube Prep,,
+,,,,,,,,,,,,,,,,,,,Chest-Tube,,
+,,,,,,,,,,,,,,,,,,,Suturing,,
+,,,,,,,,,,,,,,,,,,,Pulse-Ox,,
+,,,,,,,,,,,,,,,,,,,ECG Leads,,
+,,,,,,,,,,,,,,,,,,,Blood-Pressure Cuff,,
+,,,,,,,,,,,,,,,,,,,Vital Checking,,
+,,,,,,,,,,,,,,,,,,,Oral Airway,,
+,,,,,,,,,,,,,,,,,,,Bagging,,
+,,,,,,,,,,,,,,,,,,,Oral Airway,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Chest-Tube Prep,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,IM Administration,,
+,,,,,,,,,,,,,,,,,,,Chest-Tube,,
+,,,,,,,,,,,,,,,,,,,Suturing,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,IO Line,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Administer Medication,,
+,,,,,,,,,,,,,,,,,,,Oral Airway,,
+,,,,,,,,,,,,,,,,,,,Oral Airway,,
+,,,,,,,,,,,,,,,,,,,Vital Checking,,
+,,,,,,,,,,,,,,,,,,,Pulse-Ox,,
+,,,,,,,,,,,,,,,,,,,ECG Leads,,
+,,,,,,,,,,,,,,,,,,,Blood-Pressure Cuff,,
+,,,,,,,,,,,,,,,,,,,IV Tourniquet,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,IV Line,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Administer Medication,,
+,,,,,,,,,,,,,,,,,,,IV Tourniquet,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,IV Line,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Administer Medication,,
+,,,,,,,,,,,,,,,,,,,Combat tourniquet,,
+,,,,,,,,,,,,,,,,,,,Splintting,,
+,,,,,,,,,,,,,,,,,,,Combat Gauze,,
+,,,,,,,,,,,,,,,,,,,Wrap Head Wound,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,IM Administration,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,IO Line,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Administer Medication,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,IM Administration,,
+,,,,,,,,,,,,,,,,,,,Blood-Pressure Cuff,,
+,,,,,,,,,,,,,,,,,,,Vital Checking,,
+,,,,,,,,,,,,,,,,,,,Pulse-Ox,,
+,,,,,,,,,,,,,,,,,,,ECG Leads,,
+,,,,,,,,,,,,,,,,,,,Draw Medication,,
+,,,,,,,,,,,,,,,,,,,Chest-Tube Prep,,
+,,,,,,,,,,,,,,,,,,,Swab Area with Alcohol,,
+,,,,,,,,,,,,,,,,,,,IM Administration,,
+,,,,,,,,,,,,,,,,,,,Chest-Tube,,
+,,,,,,,,,,,,,,,,,,,Suturing,,
+,,,,,,,,,,,,,,,,,,,Clap,,
+,,,,,,,,,,,,,,,,,,,Intubation,,
+,,,,,,,,,,,,,,,,,,,CPR (Compression),,
+,,,,,,,,,,,,,,,,,,,CPR (Breath),,
+,,,,,,,,,,,,,,,,,,,CPR (Compression),,
+,,,,,,,,,,,,,,,,,,,CPR (Breath),,
+,,,,,,,,,,,,,,,,,,,CPR (Compression),,
+,,,,,,,,,,,,,,,,,,,CPR (Breath),,
+,,,,,,,,,,,,,,,,,,,CPR (Compression),,
+,,,,,,,,,,,,,,,,,,,Combat tourniquet,,
+,,,,,,,,,,,,,,,,,,,Splintting,,

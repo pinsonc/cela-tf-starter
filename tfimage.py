@@ -45,7 +45,7 @@ test_gen = test_datagen.flow_from_directory(directory=test_path,
                                     shuffle=False
 )
 
-# Calculate the different ste sizes based on the number of photos in the
+# Calculate the different step sizes based on the number of photos in the
 # generator and the batch size
 STEP_SIZE_TRAIN=train_gen.n//train_gen.batch_size
 STEP_SIZE_VALID=valid_gen.n//valid_gen.batch_size
