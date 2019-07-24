@@ -92,7 +92,7 @@ with tf.device('/GPU:0'):
                       steps_per_epoch=STEP_SIZE_TRAIN,
                       validation_data=valid_gen,
                       validation_steps=STEP_SIZE_VALID,
-                      epochs=5
+                      epochs=1
   )
 
 #  the function using the test set
