@@ -21,6 +21,8 @@ from pathlib import Path
 import ntpath
 import clean
 import count
+import boto
+import boto3
 
 #subject = int(input('Input which subject you would like to process: '))
 subject = int(input('How many subjects are there? '))
@@ -32,11 +34,11 @@ destination = 'Data/ALL'
 frame_rate = 30000.0/1001.0 # change to frame rate (used ffprobe to find the exact)
 # this is 29.97 fps
 
-# WARNING: this deletes all files in Data/ALL. This is because we have to use the 
-# append open mode to be able to add rows to different files and not oevrwrite them
-# Deleting them first effectively lets us overwrite them but just don't use that folder
-# to store anything important
-clean.clean('Data/ALL')
+s3c = boto3.client('s3')
+# s3c.download_file('cela-input','framedata/S1C2/','S1C2000001.jpg')
+conn = boto.connect_s3()
+destbucket = conn.get_bucket('cela-input')
+destbucket.copy_key('framedata/Data/ALL/S1C2000001.jpg', 'cela-input', 'framedata/S1C2/S1C2000001.jpg')
 
 prev_end = 1
 
@@ -69,12 +71,13 @@ for i in range(1,subject+1):
 
                     print('\t{0} starts at {1:.4f} and ends at {2:.4f}.'.format(row[1],start_frame,end_frame))
                     file_writer.writerow([row[1],start_frame,end_frame]) # output procedure and start and end frame
-                    with open('Data/ALL/S{}{}.csv'.format(i,row[1]), 'a') as procedure_file:
+                    with open('Data/S{}C2/{}.csv'.format(i,row[1]), 'a') as procedure_file:
                         proc_writer = csv.writer(procedure_file, delimiter=',')
                         proc_writer.writerow([start_frame,end_frame]) # output start and end frame to its specific procedure csv in ~/ALL
                 line_count += 1
             print(f'Processed {line_count} lines.')
 
+'''
 clean.clean('Data/Training')
 clean.clean('Data/Validation')
 clean.clean('Data/Test')
@@ -112,3 +115,4 @@ for cur in file_list:
                     test_writer.writerow([row[0],row[1]])
             line_count += 1
         line_count = 0
+'''

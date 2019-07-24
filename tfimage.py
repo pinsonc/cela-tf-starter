@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+import boto3
 from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D

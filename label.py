@@ -16,8 +16,10 @@ def get_files(a_dir):
     a_dir = Path(a_dir)
     return [f for f in a_dir.glob('**/*') if f.is_file()]
 
+subj_num = int(input('Which subject would you like to process? '))
+
 # change to folder where frames of the video are
-frame_folder = '/media/connerpinson/Seagate Expansion Drive/EXP 3/S1 C2/frames'
+frame_folder = 'framedata/S{}C2/frames'.format(subj_num)
 file_list = get_files(frame_folder)
 print(len(file_list))
 
@@ -25,9 +27,9 @@ print(len(file_list))
 framerate = 30000./1001.
 
 # change to folders for training, validation, test sets
-train_path = '/home/connerpinson/Downloads/Event Data CSV/Data/Training/'
-valid_path = '/home/connerpinson/Downloads/Event Data CSV/Data/Validation/'
-test_path = '/home/connerpinson/Downloads/Event Data CSV/Data/Test/'
+train_path = 'framedata/Data/Training/'
+valid_path = 'framedata/Data/Validation/'
+test_path = 'framedata/Data/Test/'
 
 training = get_folders(train_path)
 validation = get_folders(valid_path)
