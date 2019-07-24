@@ -7,6 +7,9 @@ Moves the AWS keys stored in an S3 Bucket to the correct file structure.
 ## `clean.py` & `count.py`
 Supporting functions for my local testing
 
+## `ec2.py`
+Connects to and runs commands on an EC2 instance
+
 ## `label.py`
 Takes the procedure files from `spiltdata.py` and the frames from an extracted video and puts them in the corresponding procedure folder (label) in the corresponding subset's folder
 
