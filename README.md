@@ -23,3 +23,6 @@ Generates csv data for all subjects (adapted version of `splitdata.py`, which on
 
 ## `tfimage.py`
 Loads the image data into TensorFlow and runs a simple neural network.
+
+## `tfimagetemp.py`
+Currently a copy of `tfimage.py` but is where I am adding a LSTM to add temporality to the model
