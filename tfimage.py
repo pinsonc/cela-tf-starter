@@ -7,9 +7,9 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.optimizers import SGD
 
-train_path = '/home/connerpinson/Downloads/Event Data CSV/Data/Training/'
-valid_path = '/home/connerpinson/Downloads/Event Data CSV/Data/Validation/'
-test_path = '/home/connerpinson/Downloads/Event Data CSV/Data/Test/'
+train_path = '/data/Data/Training/'
+valid_path = '/data/Data/Validation/'
+test_path = '/data/Data/Test/'
 
 # image resolution and color channels
 img_w = 3840
