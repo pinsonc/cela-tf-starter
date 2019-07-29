@@ -17,7 +17,7 @@ img_h = 2160
 img_chan = 3
 
 nb_classes = 10
-test_num = 317 #number of test images
+test_num = 164542 #number of test images
 
 train_datagen = keras.preprocessing.image.ImageDataGenerator()
 valid_datagen = keras.preprocessing.image.ImageDataGenerator()
@@ -53,27 +53,27 @@ STEP_SIZE_VALID=valid_gen.n//valid_gen.batch_size
 
 # set up model
 model = keras.models.Sequential()
-model.add(keras.layers.Conv2D(32, (3, 3), input_shape=(224, 224, 3)))
-model.add(keras.layers.Activation('relu'))
-model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(64, (3, 3), input_shape=(224, 224, 3))))
+model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
+model.add(keras.layers.TimeDistributed(keras.layers.MaxPooling2D(pool_size=(2, 2))))
 
-model.add(keras.layers.Conv2D(32, (3, 3)))
-model.add(keras.layers.Activation('relu'))
-model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(32, (3, 3))))
+model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
+model.add(keras.layers.TimeDistributed(keras.layers.MaxPooling2D(pool_size=(2, 2))))
 
-model.add(keras.layers.Conv2D(64, (3, 3)))
-model.add(keras.layers.Activation('relu'))
-model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(64, (3, 3))))
+model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
+model.add(keras.layers.TimeDistributed(keras.layers.MaxPooling2D(pool_size=(2, 2))))
 
-model.add(keras.layers.Flatten())  # this converts our 3D feature maps to 1D feature vectors
-model.add(keras.layers.Dense(64))
-model.add(keras.layers.Activation('relu'))
-model.add(keras.layers.Dropout(0.5))
-model.add(keras.layers.Dense(1))
-model.add(keras.layers.Activation('sigmoid'))
+model.add(keras.layers.TimeDistributed(keras.layers.Flatten()))  # this converts our 3D feature maps to 1D feature vectors
+model.add(keras.layers.TimeDistributed(keras.layers.Dense(64)))
+model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
+model.add(keras.layers.TimeDistributed(keras.layers.Dropout(0.5)))
+model.add(keras.layers.TimeDistributed(keras.layers.Dense(1)))
 
-model.add(keras.layers.Flatten())
-model.add(keras.layers.Dense(64, activation='relu'))
+model.add(keras.layers.TimeDistributed(keras.layers.Flatten()))
+model.add(keras.layers.TimeDistributed(keras.layers.Dense(64, activation='relu')))
+model.add(keras.layers.LSTM(28))
 model.add(keras.layers.Dense(28, activation='softmax'))
 
 model.summary() # print structure of the model
@@ -89,9 +89,9 @@ model.compile(loss='categorical_crossentropy',
 # train the neural net
 with tf.device('/GPU:0'):
     model.fit_generator(generator=train_gen,
-                        steps_per_epoch=STEP_SIZE_TRAIN,
+                        steps_per_epoch=STEP_SIZE_TRAIN/8,
                         validation_data=valid_gen,
-                        validation_steps=STEP_SIZE_VALID,
+                        validation_steps=STEP_SIZE_VALID/8,
                         epochs=1
     )
 
