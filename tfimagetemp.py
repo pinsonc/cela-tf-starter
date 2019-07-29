@@ -89,15 +89,15 @@ model.compile(loss='categorical_crossentropy',
 # train the neural net
 with tf.device('/GPU:0'):
     model.fit_generator(generator=train_gen,
-                        steps_per_epoch=STEP_SIZE_TRAIN/8,
+                        steps_per_epoch=STEP_SIZE_TRAIN/32,
                         validation_data=valid_gen,
-                        validation_steps=STEP_SIZE_VALID/8,
+                        validation_steps=STEP_SIZE_VALID/32,
                         epochs=1
     )
 
 #  the function using the test set
 test_loss, test_acc = model.evaluate_generator(test_gen,
-                                            test_num)
+                                            test_num/32)
 
 # print test accuracy
 print('Accuracy: {}'.format(test_acc))
