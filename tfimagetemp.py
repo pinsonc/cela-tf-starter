@@ -53,15 +53,15 @@ STEP_SIZE_VALID=valid_gen.n//valid_gen.batch_size
 
 # set up model
 model = keras.models.Sequential()
-model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(64, (3, 3), input_shape=(224, 224, 3))))
+model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(64, (3, 3), padding = 'same', input_shape=(224, 224, 3, 1))))
 model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
 model.add(keras.layers.TimeDistributed(keras.layers.MaxPooling2D(pool_size=(2, 2))))
 
-model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(32, (3, 3))))
+model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(32, (3, 3), padding = 'same')))
 model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
 model.add(keras.layers.TimeDistributed(keras.layers.MaxPooling2D(pool_size=(2, 2))))
 
-model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(64, (3, 3))))
+model.add(keras.layers.TimeDistributed(keras.layers.Conv2D(64, (3, 3), padding = 'same')))
 model.add(keras.layers.TimeDistributed(keras.layers.Activation('relu')))
 model.add(keras.layers.TimeDistributed(keras.layers.MaxPooling2D(pool_size=(2, 2))))
 
