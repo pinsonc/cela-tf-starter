@@ -1,7 +1,7 @@
 # Test TensorFlow Model for Image Processing on Locally Stored Data
 This is meant to be a simple test of a custom data extraction, labeling, and machine learning script that I wrote for the Learning in Virtual Environments (LIVE) research lab at Vanderbilt University
 
-[This Google Doc](https://docs.google.com/document/d/1meS-vAqsS7E8b26omvotoGY7mfBzj1pn7bqyfyGafkk/edit?usp=sharing) Has way more information about this GitHub as well as my summer activities.
+[This Google Doc](https://docs.google.com/document/d/1meS-vAqsS7E8b26omvotoGY7mfBzj1pn7bqyfyGafkk/edit?usp=sharing) Has way more information about this GitHub as well as my summer activities and some great general information on deep learning.
 
 ## `awslabel.py`
 Given that the frames are in folders by subject in an S3 bucket, this can take the images from each folder and relocate them to the file structure Data/Training/Label/File on the S3 bucket. I did this so I could batch upload the frames by subject and camera angle and then worry about labeling them later. It is worth noting that when I extracted the frames, I used the naming convention [subject number][camera number][frame number].jpg so that I could easily parse all this data from the file name for labeling purposes.
