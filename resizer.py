@@ -57,8 +57,9 @@ def main():
             reimg = cv2.resize(img, (244, 244), interpolation = cv2.INTER_AREA) # resize image
             print("\tResized Dimension: {}".format(reimg.shape))
             cv2.imwrite('download/{}'.format(key_path),reimg) # save resized image
-            label = key.split('/')[2] # get parent folder (label) of the file
-            s3c.upload_file('download/{}'.format(key_path), 'cela-input', 'framedata/Resize/{}/{}'.format(label,key_path)) # upload the resized file
+            label = key.split('/')[3] # get parent folder (label) of the file
+            subset = key.split('/')[2] # get the data set the image belongs in
+            s3c.upload_file('download/{}'.format(key_path), 'cela-input', 'framedata/Resize/{}/{}/{}'.format(subset,label,key_path)) # upload the resized file
             os.remove('download/{}'.format(key_path)) # delete the file locally
             print("\tDeleted file {}".format(key_path))
             n += 1
