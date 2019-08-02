@@ -24,9 +24,6 @@ This script downloads a file from S3, converts it to dimensions 224x224, uploads
 ## `splitdata.py`
 This script takes the csv output from a .xslx file and outputs the procedure, start frame and end frame to its own file in folder framecsv. All procedures are also given their own csv with start and end frames in Data/ALL. To make them all uniform, I created a second row that has all of the names of the procedures where they are capitalized throughout. That means that the label is actually row 1 and not row 0. This basically creates the files I used to label all the frames in the other scripts.
 
-## `subj.py`
-Generates csv data for all subjects (adapted version of `splitdata.py`, which only did one subject)
-
 ## `tfimage.py`
 Loads the image data into TensorFlow and runs a simple neural network.
 
