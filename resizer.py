@@ -3,11 +3,6 @@ import boto
 import boto3
 import os
 
-# get all files in a folder
-def get_files(a_dir):
-    a_dir = Path(a_dir)
-    return [f for f in a_dir.glob('**/*') if f.is_file()]
-
 def get_matching_s3_keys(bucket, prefix='', suffix=''):
     """
     Generate the keys in an S3 bucket.
