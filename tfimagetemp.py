@@ -7,13 +7,13 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.optimizers import SGD
 
-train_path = '/data/Data/Training/'
-valid_path = '/data/Data/Validation/'
-test_path = '/data/Data/Test/'
+train_path = 'data/Resize/Training/'
+valid_path = 'data/Resize/Validation/'
+test_path = 'data/Resize/Test/'
 
 # image resolution and color channels
-img_w = 3840
-img_h = 2160
+img_w = 224
+img_h = 224
 img_chan = 3
 
 nb_classes = 10
@@ -73,8 +73,8 @@ model.add(keras.layers.TimeDistributed(keras.layers.Dense(1)))
 
 model.add(keras.layers.TimeDistributed(keras.layers.Flatten()))
 model.add(keras.layers.TimeDistributed(keras.layers.Dense(64, activation='relu')))
-model.add(keras.layers.LSTM(28))
-model.add(keras.layers.Dense(28, activation='softmax'))
+model.add(keras.layers.LSTM(28, activation='softmax', recurrent_activation='tanh'))
+# model.add(keras.layers.Dense(28, activation='softmax'))
 
 model.summary() # print structure of the model
 

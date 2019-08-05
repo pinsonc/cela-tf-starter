@@ -7,13 +7,13 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.optimizers import SGD
 
-train_path = '/data/Data/Training/'
-valid_path = '/data/Data/Validation/'
-test_path = '/data/Data/Test/'
+train_path = '/data/Resize/Training/'
+valid_path = '/data/Resize/Validation/'
+test_path = '/data/Resize/Test/'
 
 # image resolution and color channels
-img_w = 3840
-img_h = 2160
+img_w = 224
+img_h = 224
 img_chan = 3
 
 nb_classes = 10
@@ -53,7 +53,7 @@ STEP_SIZE_VALID=valid_gen.n//valid_gen.batch_size
 
 # set up model
 model = keras.models.Sequential()
-model.add(keras.layers.Conv2D(32, (3, 3), input_shape=(224, 224, 3)))
+model.add(keras.layers.Conv2D(16, (3, 3), input_shape=(224, 224, 3)))
 model.add(keras.layers.Activation('relu'))
 model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
 

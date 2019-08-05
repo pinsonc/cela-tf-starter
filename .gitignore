@@ -3,3 +3,4 @@ framecsv
 __pycache__
 .aws
 download
+test.py
