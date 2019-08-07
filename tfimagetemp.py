@@ -74,17 +74,17 @@ model.add(keras.layers.TimeDistributed(keras.layers.Dense(1)))
 model.add(keras.layers.TimeDistributed(keras.layers.Flatten()))
 model.add(keras.layers.TimeDistributed(keras.layers.Dense(64, activation='relu')))
 model.add(keras.layers.LSTM(28, activation='softmax', recurrent_activation='tanh'))
-# model.add(keras.layers.Dense(28, activation='softmax'))
-
-model.summary() # print structure of the model
+model.add(keras.layers.Dense(28, activation='softmax'))
 
 opt = keras.optimizers.SGD(lr=0.01) # custom SGD optimizer
 
 # compile the model with a loss function, optimizer, and the metric on which to judge it
 model.compile(loss='categorical_crossentropy',
-            optimizer=opt,
+            optimizer='adam',
             metrics=['accuracy']
 )
+
+model.summary() # print structure of the model
 
 # train the neural net
 with tf.device('/GPU:0'):
