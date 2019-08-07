@@ -102,9 +102,7 @@ model.compile(loss='categorical_crossentropy', # used when you have a categorica
 )
 
 # train the neural net
-with tf.device('/GPU:0'):​
-14
-nb_classes = 10
+with tf.device('/GPU:0'):
     model.fit_generator(generator=train_gen,
                         steps_per_epoch=STEP_SIZE_TRAIN, # number of steps in each epoch
                         validation_data=valid_gen,
