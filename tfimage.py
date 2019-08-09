@@ -11,7 +11,11 @@ train_path = '/data/Resize/Training/' # directory containing subsets of data wit
 valid_path = '/data/Resize/Validation/'
 test_path = '/data/Resize/Test/'
 
-test_num = 164542 # number of original test images
+TEST_NUM = 164542 # number of original test images
+
+EPOCH_NUM = 30 # number of epochs to run
+LEARN_RATE = 0.01 # how much the guesses adjust for loss each time to find the minimum
+BATCH_SIZE = 64 # how many to process at once (greatest power of 2 that can ft in RAM)
 
 train_datagen = keras.preprocessing.image.ImageDataGenerator()
 valid_datagen = keras.preprocessing.image.ImageDataGenerator()
@@ -21,14 +25,14 @@ test_datagen = keras.preprocessing.image.ImageDataGenerator()
 train_gen = train_datagen.flow_from_directory(directory=train_path,
                                     target_size=(224,224), # size to resize images to
                                     color_mode='rgb', # color mode of the images
-                                    batch_size=64, # how many images to process at once
+                                    batch_size=BATCH_SIZE, # how many images to process at once
                                     class_mode='categorical', # classify into categorical classes
                                     shuffle=True # shuffle order of images
 )
 valid_gen = valid_datagen.flow_from_directory(directory=valid_path,
                                     target_size=(224,224),
                                     color_mode='rgb',
-                                    batch_size=64,
+                                    batch_size=BATCH_SIZE,
                                     class_mode='categorical',
                                     shuffle=True
 )
@@ -93,7 +97,7 @@ model.add(keras.layers.Dense(28, activation='softmax'))
 
 model.summary() # print structure of the model
 
-opt = keras.optimizers.SGD(lr=0.01) # custom SGD optimizer
+opt = keras.optimizers.SGD(lr=LEARN_RATE) # custom SGD optimizer
 
 # compile the model with a loss function, optimizer, and the metric on which to judge it
 model.compile(loss='categorical_crossentropy', # used when you have a categorical problem
@@ -107,12 +111,12 @@ with tf.device('/GPU:0'):
                         steps_per_epoch=STEP_SIZE_TRAIN, # number of steps in each epoch
                         validation_data=valid_gen,
                         validation_steps=STEP_SIZE_VALID,
-                        epochs=1
+                        epochs=EPOCH_NUM
     )
 
 # evaluate the function using the test set
 test_loss, test_acc = model.evaluate_generator(test_gen,
-                                            test_num)
+                                            TEST_NUM)
 
 # print test accuracy
 print('Accuracy: {}'.format(test_acc))
